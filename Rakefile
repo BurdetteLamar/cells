@@ -3,6 +3,8 @@ Bundler::GemHelper.install_tasks
 
 require 'rake/testtask'
 
+require 'markdown_helper'
+
 desc 'Default: run unit tests.'
 task :default => :test
 
@@ -14,6 +16,11 @@ Rake::TestTask.new(:test) do |test|
   # * https://bugs.ruby-lang.org/issues/10967 (remove warning: private attribute?)
   # * https://bugs.ruby-lang.org/issues/12299 (customized warning handling)
   test.warning = false
+end
+
+desc "Build README"
+task :build_readme do
+  MarkdownHelper.new(:pristine => true).include('markdown/README.template.md', 'README.md')
 end
 
 # Rake::TestTask.new(:rails) do |test|

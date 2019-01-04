@@ -27,4 +27,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "cells-erb", ">= 0.1.0"
   spec.add_development_dependency "minitest"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "markdown_helper"
 end

@@ -1,33 +1,3 @@
-## Contents
-- [Cells](#cells)
-  - [Overview](#overview)
-  - [Full Documentation](#full-documentation)
-  - [Rendering Cells](#rendering-cells)
-  - [Cell Class](#cell-class)
-  - [Logicless Views](#logicless-views)
-  - [File Structure](#file-structure)
-  - [Invocation Styles](#invocation-styles)
-  - [Parameters](#parameters)
-  - [Testing](#testing)
-  - [Properties](#properties)
-  - [HTML Escaping](#html-escaping)
-  - [Installation](#installation)
-  - [Namespaces](#namespaces)
-  - [Rails Helper API](#rails-helper-api)
-  - [View Paths](#view-paths)
-  - [Asset Packaging](#asset-packaging)
-  - [Render API](#render-api)
-  - [Layouts](#layouts)
-  - [Nested Cells](#nested-cells)
-  - [View Inheritance](#view-inheritance)
-  - [Collections](#collections)
-  - [Builder](#builder)
-  - [Caching](#caching)
-- [..](#)
-  - [The Book](#the-book)
-  - [This is not Cells 3.x!](#this-is-not-cells-3x-)
-  - [LICENSE](#license)
-
 # Cells
 
 *View Components for Ruby and Rails.*
@@ -37,6 +7,8 @@
 [![Build
 Status](https://travis-ci.org/trailblazer/cells.svg)](https://travis-ci.org/trailblazer/cells)
 [![Gem Version](https://badge.fury.io/rb/cells.svg)](http://badge.fury.io/rb/cells)
+
+@[:page_toc](## Contents)
 
 ## Overview
 
